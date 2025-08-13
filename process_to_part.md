@@ -70,13 +70,13 @@ This particular demonstration sets out to convey:
 
 <div style="max-width: 1280px">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe src="https://www.youtube.com/embed/0KfLP6aDHEw?vq=hd720&mute=1&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="241007.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;">
+        <iframe src="https://www.youtube.com/embed/pKusfRcnj2g?vq=hd720&mute=1&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="241007.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;">
         </iframe>
     </div>
 </div>
 
 ### Eddy Current Reconstruction
-The matrix of coils in the eddy current array allows for data to be simultaneously collected in two separate firing patterns, axial and transversal. Reconstructions of these two acquisitions are provided below depicting the lower area of the test specimen, scanned with four passes to provide coverage of 1.6m in length and 0.23m in height. Note that a scan with increased coverage of this specimen is planned.
+The matrix of coils in the eddy current array allows for data to be simultaneously collected in two separate firing patterns, axial and transversal. Reconstructions of these two acquisitions are provided below depicting the lower area of the test specimen, scanned with four passes to provide coverage of 1.75m in length and 0.45m in height.
 
 {% include hor_image.html file="ec_recon_axial.png" description="Eddy Current Axial Firing Reconstruction" %}
 
@@ -86,15 +86,13 @@ As we are encoding our data as pointclouds we can directly overlay the two data 
 
 {% include hor_image.html file="ec_recon_both.png" description="Eddy Current Axial and Transversal Firings Overlaid" %}
 
-The previously shown 9.7mm diameter defects C and E can be easily found in both acquisitions.
+The previously shown 9.7mm diameter defects A, C, E and F can be easily found in both acquisitions.
 
 {% include hor_image.html file="ec_defects.png" description="Defects as Detected" %}
 
 As can the surface breaking features that make up part of the fuselage design.
 
 {% include hor_image.html file="ec_features.png" description="Intentional Featuers as Detected" %}
-
-Note that more complete scans of this component are inteneded as this work is currently ongoing.
 
 ---
 
